@@ -1,0 +1,930 @@
+*,*::after,*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+html{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    position: relative;
+    width: 100%;
+    user-select: none;
+    text-rendering: optimizeLegibility;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    font-size: 32px;
+}
+
+h2{
+    font-size: 25px;
+}
+
+h3{
+    font-size: 16px;
+}
+
+h4{
+    font-size: 14px;
+}
+
+h5{
+    font-size: 11px;
+}
+
+
+.section1{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.section1 > img{
+    width: 95px;
+}
+
+/* section2 */
+
+.section2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 10px 30px;
+}
+
+.navigation-wrapper-con{
+    display: flex;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+}
+
+.nav-menu{
+    display: flex;
+    align-items: center;
+}
+
+.nav-items{
+    margin-left: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-items > p{
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.nav-items > i{
+    margin: 7px;
+    position: relative;
+    top: 3px;
+    font-size: 12px;
+    color: gray;
+}
+
+.nav-items:hover{
+    color: blue;
+}
+
+.nav-items:hover > i{
+    color: blue;
+}
+
+.sign-up-con > button{
+    width: 90px;
+    height: 30px;
+    background-color: blue;
+    border: 1px solid blue;
+    outline: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 20px;
+    margin-right: 40px;
+}
+
+
+
+
+/* Section3 */
+
+.section3{
+    background: url("../build/images/gift-cards-banner-hero-desktop-01-en-07oct21.webp");
+    height: 77vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 100px;
+}
+
+.section3 > img {
+    width: 100px;
+    margin-bottom: 35px;
+}
+
+.section3 > h1{
+    font-size: 45px;
+    color: white;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.section3 > p{
+    width: 44%;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: lightgray;
+}
+
+.section3 > button{
+    width: 210px;
+    height: 47px;
+    border-radius: 30px;
+    color: black;
+    font-weight: bold;
+    font-size: 17px;
+    outline: none;
+    border: 3px solid black;
+    transition: .2s ease;
+}
+
+.section3 > button:hover{
+    box-shadow: 0px -3px 1px white;
+}
+
+
+/* section4 */
+.section4{
+    padding: 60px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(243, 243, 243, 1);
+}
+
+.section4 > h1{
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.section4 > #psn{
+    width: 40%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#click{
+    width: 35%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.buttons-times-two-con > button{
+    padding: 10px 10px;
+    border-radius: 30px;
+    font-size: 16px;
+    outline: none;
+}
+
+.buttons-times-two-con > button:nth-child(1){
+    border: 1px solid lightgray;
+    color: blue;
+    margin-right: 10px;
+}
+
+.buttons-times-two-con > button:nth-child(2){
+    background-color: blue;
+    color: white;
+    border: 1px solid blue;
+    margin-left: 10px;
+
+}
+
+
+/* Section5 */
+
+.section5{
+    padding: 80px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section5 > h1{
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.section5 > p{
+    font-size: 18px;
+    font-weight: 400;
+    width: 65%;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+.ps-wrapper-con{
+    width: 100%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+.ps-store{
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ps-plus{
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.ps{
+    padding: 30px 0px;
+    background-color: #F5F5F5;
+}
+
+.ps > img{
+    width: 190px;
+    margin-bottom: 30px;
+}
+
+.ps > h1{
+    margin-bottom: 10px;
+    font-weight: 200;
+    color: rgb(49, 47, 47);
+}
+
+.ps > h3{
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 23px;
+    font-weight: 200;
+    color: rgb(90, 89, 89);
+}
+
+.button-sect5-wrapper{
+    padding: 4px 4px;
+    /* background-color: white; */
+    border-radius: 30px;
+    transition: .1s ease;
+}
+
+.button-sect5-wrapper > button{
+    width: 150px;
+    height: 42px;
+    font-size: 16px;
+    background-color: rgba(0, 112, 204, 1);
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    color: white;
+}
+
+.button-sect5-wrapper:hover{
+    border: 2px solid black;
+}
+
+.ps-plus > h3{
+    width: 80%;
+    line-height: 25px;
+}
+
+#players{
+    background-color: orangered;
+}
+
+.section5 > h5{
+    width: 65%;
+    text-align: center;
+    font-weight: 100;
+}
+
+
+/* section6 */
+
+.section6{
+    background:url("../build/images/ps-guide-to-tournaments-and-esports-background-block-desktop-01-en-23nov22.webp");
+    background-position:center -180px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0px 100px; 
+}
+
+.section6 > h1 {
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+
+.section6 > p {
+    width: 42%;
+    margin-bottom: 14px;
+}
+
+.section6 > .button-sect5-wrapper {
+    width: 200px;
+    margin-bottom: 0px;
+}
+
+.section6 > .button-sect5-wrapper > button{
+    width: 100%;
+    background-color: white;
+    color: black;
+    font-weight: 700
+}
+
+.section6 > .button-sect5-wrapper{
+    padding: 2px;
+}
+
+.section6 > .button-sect5-wrapper:hover{
+    border: 3px solid white;
+}
+
+/* section7 */
+
+.section7{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 0px;
+    background-color: #00439B;
+    width: 100%;
+}
+
+.section7 > .play-double{
+    display: flex;
+    align-items: center;
+}
+
+.play-double{
+    margin-bottom: 8px;
+}
+
+
+.play-double > img {
+    width: 50px;
+}
+
+.play-double > h3{
+    font-size: 25px;
+    color: white;
+    font-weight: 700;
+}
+
+.play-double > h3 > span{
+    font-weight: 300;
+    margin-left: 4px;
+}
+
+.section7 > h1 {
+    color: white;
+    width: 40%;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.section7 > h3{
+    color: lightgray;
+    font-size: 20px;
+    font-weight: 100;
+    margin-bottom: 100px;
+}
+
+.section7 > img {
+    width: 65%;
+    margin-bottom: 30px
+}
+
+.smart-phones-con{
+    width: 63%;
+    margin-bottom: 30px;
+}
+
+.smart-phones-con > h3{
+    font-size: 20px;
+    font-weight: 400;
+    color: lightgray;
+    text-align: center;
+}
+
+.play-app{
+    display: flex;
+    align-items: center;
+}
+
+.play-app >button:nth-child(1){
+    margin-right: 5px;
+    background-color: white;
+    color: black;
+    border: 1px solid white;
+}
+
+.play-app > button:nth-child(2){
+    margin-left: 5px;
+    background-color: rgba(227, 224, 224, 0.62);
+    color: white;
+    border: 1px solid rgba(227, 224, 224, 0.62);
+}
+
+
+.download-the-con{
+    outline: none;
+    font-size: 16px;
+    padding: 10px 15px;
+    border-radius: 20px;
+    font-weight: 600;
+}
+
+
+
+/* section8 */
+.section8{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 100px;
+    background-color: #CECDD2;
+}
+
+.plus-wrapper{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.plus-wrapper > img {
+    width: 60px;
+}
+
+.plus-wrapper > h3{
+    font-size: 25px;
+    color: white;
+    color: black;
+}
+
+.plus-wrapper > h3 > span{
+    font-weight: 100;
+}
+
+.section8 > h1{
+    width: 55%;
+    text-align: center;
+    margin-bottom: 14px;
+}
+
+.section8 > h3 {
+    width: 73%;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 100;
+    color: rgb(87, 84, 84);
+    margin-bottom: 100px;
+}
+
+.premium-con-wrapper{
+    display: flex;
+    width: 100%;
+    padding: 0px 40px;
+}
+
+.premium-menu{
+    display: flex;
+    justify-content: space-between;
+}
+
+.premium-items{
+    width: 30%;
+}
+
+.premium-items > a {
+    display: inline-block;
+    margin-bottom: 50px;
+}
+
+
+.premium-items > a > img {
+    width: 100%;
+    border-radius: 15px;
+    transition: .5s;
+}
+
+.premium-items > a > img:hover{
+    scale: 1.02;
+}
+
+.playstation-plus-prem > h1{
+    font-size: 28px;
+    color: rgb(35, 34, 34);
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+
+.playstation-plus-prem > h2 {
+    font-size: 20px;
+    color: rgb(93, 88, 88);
+    font-weight: 100;
+    line-height: 25px;
+    margin-bottom: 15px;
+}
+
+.playstation-plus-prem > h5{
+    color: rgb(61, 60, 60);
+}
+
+.section8 > button{
+    width: 130px;
+    height: 42px;
+    font-size: 16px;
+    color: white;
+    background-color: #3586f0;
+    border-radius: 30px;
+    border: 1px solid #3586f0;
+    outline: none;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.penta{
+    text-align: center;
+    width: 50%;
+    color: rgb(71, 69, 69);
+}
+
+
+/* section9 */
+
+.section9{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 0px;
+}
+
+.section9 > h1 {
+    font-size: 40px;
+    color: black;
+    font-weight: 200;
+    margin-bottom: 20px;
+}
+
+.section9 > p {
+    font-size: 18px;
+    color: black;
+    font-size: 300;
+    width: 58%;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.section9 > img {
+    width: 50%;
+    margin-bottom: 50px;
+}
+
+
+#biggest{
+    font-size: 20px;
+    color: black;
+    width: 62%;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.section9 > button{
+    font-size: 18px;
+    color: white;
+    background-color: #0556bf;
+    padding: 11px 20px;
+    border-radius: 30px;
+    border: 1px solid #0556bf;
+    font-weight: 700;
+    outline: none;
+    margin-bottom: 30px;
+}
+
+
+.section9 > h5 {
+    width: 70%;
+    color: rgb(59, 57, 57);
+    width: 62%;
+    font-size: 12px;
+}
+
+
+/* section10 */
+
+.section10{
+    background: url(../build/images/playstation-stars-hero-page-banner-desktop-01-en-02sep22.webp);
+    background-position: center 60px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 60vh;
+    padding: 0px 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.section10 > p{
+    font-size: 18px;
+    color: white;
+    width: 42%;
+    margin-bottom: 30px;
+    line-height: 25px;
+    margin-top: 70px;
+}
+
+.section10 > button {
+    width: 120px;
+    font-size: 18px;
+    height: 50px;
+    border-radius: 30px;
+    outline: none;
+    color: black;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.section10 > h4{
+    color: white;
+    font-size: 16px;
+    width: 42%;
+}
+
+
+
+/* section11 */
+
+.section11{
+    background: url(../build/images/privacy-hub-hero-banner-desktop-01-en-10jun22.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0px 80px;
+}
+
+.section11 > h1 {
+    color: white;
+    font-size: 40px;
+    font-weight: 100;
+    width: 38%;
+    margin-bottom: 15px;
+}
+
+.section11 > h3 {
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+    width: 40%;
+    margin-bottom: 25px;
+}
+
+.more-con{
+    width: 150px;
+    height: 42px;
+    font-size: 16px;
+    color: black;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 30px;
+    outline: none;
+    font-weight: bold;
+}
+
+
+footer{
+    padding: 0px 80px 20px;
+    background-color: #00439C;
+}
+
+.footer-header-one{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.footer-header-one > img {
+    width: 80px;
+}
+.footer-header-one > h1 {
+    font-size: 40px;
+    color: white;
+    margin-left: 8px;
+}
+
+.footer-header-two{
+    display: flex;
+    align-items: center;
+    margin-left: 4px;
+}
+
+.footer-header-two > p {
+    color: white;
+    margin-left: 2px;
+}
+
+.footer-header-two > h5 {
+    color: white;font-size: 14px;
+    margin-left: 5px;
+}
+
+.arrow-con{
+    margin-left: 5px;
+}
+
+.arrow-con > i {
+    color: rgb(193, 185, 185);
+    font-size: 11px;
+}
+
+.footer-header{
+    border-bottom: 1px solid rgb(169, 158, 158);
+    padding: 20px 0px;
+}
+
+.footer-ul-con{
+    display: flex;
+    padding: 20px 0px;
+    border-bottom: 1px solid rgb(169, 158, 158);
+}
+
+.footer-menu{
+    display: flex;
+    width: 100%;
+}
+
+.footer-items{
+    width: 16.8%;
+}
+
+.footer-items > a {
+    display: block;
+    color: white;
+    margin-bottom: 8px;
+}
+
+.footer-items > h1 {
+    font-size: 18px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.footer-items > a:not(:last-child):hover{
+    color: lightgray;
+}
+
+
+.footer-items:nth-child(6)> a > .socials > i{
+    font-size: 26px;
+}
+
+.footer-items:nth-child(6)> a > .socials > i:not(:first-child){
+    margin-left: 10px;
+}
+
+.sony-interactive-con{
+    padding: 15px 0px;
+    border-bottom: 1px solid  rgb(169, 158, 158);
+}
+
+.sony-int-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 6px;
+}
+
+.sony-int-wrapper > img{
+    width: 60px;
+}
+
+.sony-iter-child{
+    display: flex;
+    align-items: center;
+}
+
+.sony-iter-child > img {
+    width: 90px;
+}
+
+.sony-iter-child > h1{
+    width: 30px;
+    color: white;
+    font-size: 20px;
+    font-weight: 200;
+    margin-left: 13px;
+}
+
+.at{
+    font-size: 16px;
+    color: white;
+}
+
+.sony-interactive-con > h5{
+    font-size: 16px;
+    color: white;
+    font-weight: 100;
+    width: 93%;
+}
+
+.sony-interactive-con > h5 > a {
+    color: white;
+    text-decoration: underline;
+}
+
+.earth-con{
+    display: flex;
+    align-items: center;
+}
+
+.earth-con > h3{
+    margin-left: 12px;
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.earth-con > .fa-angle-right{
+    margin-left: 12px; 
+}
+
+.earth-con > i {
+    position: relative;
+    top: 3px;
+    color: white;
+}
+
+.fa-earth-americas{
+    font-size: 22px;
+}
+
+.earth-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0px 10px;
+}
+
+.semi-menu{
+    display: flex;
+    align-items: center;
+}
+
+.semi-items > a {
+    color: white;
+    padding: 0px 10px;
+}
+
+.semi-items:not(:last-child){
+    border-right: 1px solid white;
+}
+
